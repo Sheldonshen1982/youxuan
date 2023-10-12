@@ -92,9 +92,9 @@ proxies:
   - {"name":"优选1","type":"vless","server":"cfip.gay","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"优选9","type":"vless","server":"cn.king361.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"优选3","type":"vless","server":"cdn.jsbang.top","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"优选5","type":"vless","server":"104.18.173.147","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"优选6","type":"vless","server":"104.18.215.146","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"优选4","type":"vless","server":"104.18.183.29","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"优选5","type":"vless","server":"x.adorabletoad.tk","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"优选6","type":"vless","server":"jp01.nttkk.com","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"优选4","type":"vless","server":"hkcf.sky2005.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"优选8","type":"vless","server":"104.18.204.47","port":8080,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"优选10","type":"vless","server":"104.18.208.251","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"优选7","type":"vless","server":"104.18.171.160","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
@@ -2337,6 +2337,9 @@ rules:
   - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
   - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
   - DOMAIN-KEYWORD,japonx,🌍 国外媒体
+  - DOMAIN-KEYWORD,porn,🌍 国外媒体
+  - DOMAIN-KEYWORD,javbooks,🌍 国外媒体
+  - DOMAIN-KEYWORD,jav,🌍 国外媒体
   - DOMAIN-KEYWORD,japronx,🌍 国外媒体
   - DOMAIN-SUFFIX,japonx.com,🌍 国外媒体
   - DOMAIN-SUFFIX,japonx.net,🌍 国外媒体
