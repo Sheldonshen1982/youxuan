@@ -86,7 +86,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"优选12","type":"vless","server":"104.16.120.226","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"优选12","type":"vless","server":"video.aliclouds.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"优选2","type":"vless","server":"yx.piaosir.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"优选11","type":"vless","server":"ip.woao.xyz","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"优选1","type":"vless","server":"cfip.gay","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
