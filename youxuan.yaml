@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-10-07 23:12:26
+# 创建时间：2023-11-22 23:37:57
 # 使用模版：V2RaySE 默认模版
-# 节点数量：12
+# 节点数量：7
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,123 +86,88 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"HK 150M","type":"vless","server":"hk.cloudflarest.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"neobirdfly 130M","type":"vless","server":"speed.neobirdfly.eu.org","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"AAOK 140M","type":"vless","server":"vpn.aaok.vip","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"ACHEN 280M","type":"vless","server":"1.achen.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"ACHEN 100M","type":"vless","server":"qq.achen.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"JP 300M","type":"vless","server":"jp.cloudflarest.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"KR LOW","type":"vless","server":"kr.cloudflarest.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"优选5","type":"vless","server":"hk.cloudflarest.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"优选6","type":"vless","server":"hk.cloudflarest.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"优选4","type":"vless","server":"jp.cloudflarest.link","port":2052,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"优选8","type":"vless","server":"jp.cloudflarest.link","port":2052,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"优选10","type":"vless","server":"vpn.aaok.vip","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"优选7","type":"vless","server":"vpn.aaok.vip","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"AAOK 140M","type":"vless","server":"vpn.aaok.vip","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"HK 150M","type":"vless","server":"HK.cloudflarest.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"GAY 120M","type":"vless","server":"cf.yumy.gay","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"NEOBIRD130M","type":"vless","server":"speed.neobirdfly.eu.org","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"ACHEN 280M","type":"vless","server":"1.achen.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 优选12
-      - 优选2
-      - 优选11
-      - 优选1
-      - 优选9
-      - 优选3
-      - 优选5
-      - 优选6
-      - 优选4
-      - 优选8
-      - 优选10
-      - 优选7
+      - ACHEN 100M
+      - JP 300M
+      - AAOK 140M
+      - HK 150M
+      - GAY 120M
+      - NEOBIRD130M
+      - ACHEN 280M
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 优选12
-      - 优选2
-      - 优选11
-      - 优选1
-      - 优选9
-      - 优选3
-      - 优选5
-      - 优选6
-      - 优选4
-      - 优选8
-      - 优选10
-      - 优选7
+      - ACHEN 100M
+      - JP 300M
+      - AAOK 140M
+      - HK 150M
+      - GAY 120M
+      - NEOBIRD130M
+      - ACHEN 280M
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 优选12
-      - 优选2
-      - 优选11
-      - 优选1
-      - 优选9
-      - 优选3
-      - 优选5
-      - 优选6
-      - 优选4
-      - 优选8
-      - 优选10
-      - 优选7
+      - ACHEN 100M
+      - JP 300M
+      - AAOK 140M
+      - HK 150M
+      - GAY 120M
+      - NEOBIRD130M
+      - ACHEN 280M
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 优选12
-      - 优选2
-      - 优选11
-      - 优选1
-      - 优选9
-      - 优选3
-      - 优选5
-      - 优选6
-      - 优选4
-      - 优选8
-      - 优选10
-      - 优选7
+      - ACHEN 100M
+      - JP 300M
+      - AAOK 140M
+      - HK 150M
+      - GAY 120M
+      - NEOBIRD130M
+      - ACHEN 280M
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 优选12
-      - 优选2
-      - 优选11
-      - 优选1
-      - 优选9
-      - 优选3
-      - 优选5
-      - 优选6
-      - 优选4
-      - 优选8
-      - 优选10
-      - 优选7
+      - ACHEN 100M
+      - JP 300M
+      - AAOK 140M
+      - HK 150M
+      - GAY 120M
+      - NEOBIRD130M
+      - ACHEN 280M
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 优选12
-      - 优选2
-      - 优选11
-      - 优选1
-      - 优选9
-      - 优选3
-      - 优选5
-      - 优选6
-      - 优选4
-      - 优选8
-      - 优选10
-      - 优选7
+      - ACHEN 100M
+      - JP 300M
+      - AAOK 140M
+      - HK 150M
+      - GAY 120M
+      - NEOBIRD130M
+      - ACHEN 280M
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -225,18 +190,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 优选12
-      - 优选2
-      - 优选11
-      - 优选1
-      - 优选9
-      - 优选3
-      - 优选5
-      - 优选6
-      - 优选4
-      - 优选8
-      - 优选10
-      - 优选7
+      - ACHEN 100M
+      - JP 300M
+      - AAOK 140M
+      - HK 150M
+      - GAY 120M
+      - NEOBIRD130M
+      - ACHEN 280M
 
 rules:
 # 本地/局域网地址
@@ -2337,9 +2297,6 @@ rules:
   - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
   - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
   - DOMAIN-KEYWORD,japonx,🌍 国外媒体
-  - DOMAIN-KEYWORD,porn,🌍 国外媒体
-  - DOMAIN-KEYWORD,javbooks,🌍 国外媒体
-  - DOMAIN-KEYWORD,jav,🌍 国外媒体
   - DOMAIN-KEYWORD,japronx,🌍 国外媒体
   - DOMAIN-SUFFIX,japonx.com,🌍 国外媒体
   - DOMAIN-SUFFIX,japonx.net,🌍 国外媒体
