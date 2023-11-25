@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-11-22 23:37:57
+# 创建时间：2023-11-25 20:42:38
 # 使用模版：V2RaySE 默认模版
 # 节点数量：7
 ####################################
@@ -86,88 +86,88 @@ dns:
       - 0.0.0.0/32
 
 proxies:
+  - {"name":"SKK","type":"vless","server":"skk.moe","port":443,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":true,"servername":"0717.tinytool.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0717.tinytool.eu.org"}},"client-fingerprint":"randomized"}
+  - {"name":"优选6","type":"vless","server":"kr.cloudflarest.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"ACHEN 100M","type":"vless","server":"qq.achen.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"JP 300M","type":"vless","server":"jp.cloudflarest.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"AAOK 140M","type":"vless","server":"vpn.aaok.vip","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"HK 150M","type":"vless","server":"HK.cloudflarest.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"GAY 120M","type":"vless","server":"cf.yumy.gay","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"NEOBIRD130M","type":"vless","server":"speed.neobirdfly.eu.org","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"ACHEN 280M","type":"vless","server":"1.achen.link","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"TinyTool","type":"vless","server":"0717.tinytool.eu.org","port":443,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":true,"servername":"0717.tinytool.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0717.tinytool.eu.org"}},"client-fingerprint":"randomized"}
+  - {"name":"CSGO","type":"vless","server":"www.csgo.com","port":443,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":true,"servername":"0717.tinytool.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0717.tinytool.eu.org"}},"client-fingerprint":"randomized"}
+  - {"name":"VISA HK","type":"vless","server":"www.visa.com.hk","port":443,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":true,"servername":"0717.tinytool.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0717.tinytool.eu.org"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - SKK
+      - 优选6
       - ACHEN 100M
-      - JP 300M
-      - AAOK 140M
       - HK 150M
-      - GAY 120M
-      - NEOBIRD130M
-      - ACHEN 280M
+      - TinyTool
+      - CSGO
+      - VISA HK
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - SKK
+      - 优选6
       - ACHEN 100M
-      - JP 300M
-      - AAOK 140M
       - HK 150M
-      - GAY 120M
-      - NEOBIRD130M
-      - ACHEN 280M
+      - TinyTool
+      - CSGO
+      - VISA HK
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - SKK
+      - 优选6
       - ACHEN 100M
-      - JP 300M
-      - AAOK 140M
       - HK 150M
-      - GAY 120M
-      - NEOBIRD130M
-      - ACHEN 280M
+      - TinyTool
+      - CSGO
+      - VISA HK
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - SKK
+      - 优选6
       - ACHEN 100M
-      - JP 300M
-      - AAOK 140M
       - HK 150M
-      - GAY 120M
-      - NEOBIRD130M
-      - ACHEN 280M
+      - TinyTool
+      - CSGO
+      - VISA HK
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - SKK
+      - 优选6
       - ACHEN 100M
-      - JP 300M
-      - AAOK 140M
       - HK 150M
-      - GAY 120M
-      - NEOBIRD130M
-      - ACHEN 280M
+      - TinyTool
+      - CSGO
+      - VISA HK
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - SKK
+      - 优选6
       - ACHEN 100M
-      - JP 300M
-      - AAOK 140M
       - HK 150M
-      - GAY 120M
-      - NEOBIRD130M
-      - ACHEN 280M
+      - TinyTool
+      - CSGO
+      - VISA HK
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -190,13 +190,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - SKK
+      - 优选6
       - ACHEN 100M
-      - JP 300M
-      - AAOK 140M
       - HK 150M
-      - GAY 120M
-      - NEOBIRD130M
-      - ACHEN 280M
+      - TinyTool
+      - CSGO
+      - VISA HK
 
 rules:
 # 本地/局域网地址
