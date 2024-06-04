@@ -419,7 +419,7 @@
     {
       "tag": "🇸🇬 CSGO",
       "type": "vless",
-      "server": "www.csgo.com",
+      "server": "shopping.excite.co.jp",
       "server_port": 2052,
       "uuid": "6f03a5a9-a99d-4e12-9065-1e8850a03fb5",
       "packet_encoding": "xudp",
@@ -436,7 +436,7 @@
     {
       "tag": "优选1",
       "type": "vless",
-      "server": "172.64.168.181",
+      "server": "5ch.net",
       "server_port": 2052,
       "uuid": "6f03a5a9-a99d-4e12-9065-1e8850a03fb5",
       "packet_encoding": "xudp",
@@ -453,7 +453,7 @@
     {
       "tag": "优选2",
       "type": "vless",
-      "server": "104.17.227.231",
+      "server": "fmv.fccl.fujitsu.com",
       "server_port": 2052,
       "uuid": "6f03a5a9-a99d-4e12-9065-1e8850a03fb5",
       "packet_encoding": "xudp",
@@ -470,7 +470,7 @@
     {
       "tag": "优选3",
       "type": "vless",
-      "server": "172.64.165.89",
+      "server": "go.pro.sony.com",
       "server_port": 2052,
       "uuid": "6f03a5a9-a99d-4e12-9065-1e8850a03fb5",
       "packet_encoding": "xudp",
@@ -487,7 +487,7 @@
     {
       "tag": "优选4",
       "type": "vless",
-      "server": "104.16.48.71",
+      "server": "investor.salesforce.com",
       "server_port": 2052,
       "uuid": "6f03a5a9-a99d-4e12-9065-1e8850a03fb5",
       "packet_encoding": "xudp",
