@@ -106,11 +106,11 @@
         "auto",
         "direct",
         "🇭🇰 VISA HK",
-        "🇸🇬 CSGO",
-        "优选1",
-        "优选2",
-        "优选3",
-        "优选4"
+        "🇸🇬 EXCITE",
+        "5ch",
+        "fujitsu",
+        "sony",
+        "salesforce"
       ]
     },
     {
@@ -343,7 +343,7 @@
       "tag": "Singapore",
       "type": "selector",
       "outbounds": [
-        "🇸🇬 CSGO",
+        "🇸🇬 EXCITE",
         "proxy"
       ]
     },
@@ -365,10 +365,10 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "优选1",
-        "优选2",
-        "优选3",
-        "优选4",
+        "5ch",
+        "fujitsu",
+        "sony",
+        "salesforce",
         "proxy"
       ]
     },
@@ -377,11 +377,11 @@
       "type": "urltest",
       "outbounds": [
         "🇭🇰 VISA HK",
-        "🇸🇬 CSGO",
-        "优选1",
-        "优选2",
-        "优选3",
-        "优选4"
+        "🇸🇬 EXCITE",
+        "5ch",
+        "fujitsu",
+        "sony",
+        "salesforce"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -417,7 +417,7 @@
       }
     },
     {
-      "tag": "🇸🇬 CSGO",
+      "tag": "🇸🇬 EXCITE",
       "type": "vless",
       "server": "shopping.excite.co.jp",
       "server_port": 2052,
@@ -434,7 +434,7 @@
       }
     },
     {
-      "tag": "优选1",
+      "tag": "5ch",
       "type": "vless",
       "server": "5ch.net",
       "server_port": 2052,
@@ -451,7 +451,7 @@
       }
     },
     {
-      "tag": "优选2",
+      "tag": "fujitsu",
       "type": "vless",
       "server": "fmv.fccl.fujitsu.com",
       "server_port": 2052,
@@ -468,7 +468,7 @@
       }
     },
     {
-      "tag": "优选3",
+      "tag": "sony",
       "type": "vless",
       "server": "go.pro.sony.com",
       "server_port": 2052,
@@ -485,7 +485,7 @@
       }
     },
     {
-      "tag": "优选4",
+      "tag": "salesforce",
       "type": "vless",
       "server": "investor.salesforce.com",
       "server_port": 2052,
