@@ -86,12 +86,12 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"excite","type":"vless","server":"cfip.cfcdn.vip","port":2052,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"excite","type":"vless","server":"cf.008500.xyz","port":2052,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":" 5ch","type":"vless","server":"cf.090227.xyz","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"fujitsu","type":"vless","server":"cf.cloudflare.182682.xyz","port":80,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"Sony","type":"vless","server":"speed.marisalnc.com","port":2052,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"VISA HK","type":"vless","server":"cnamefuckxxs.yuchen.icu","port":2052,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"salesforce","type":"vless","server":"104.21.75.36","port":2052,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"Sony","type":"vless","server":"sub.danfeng.eu.org","port":2052,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"VISA HK","type":"vless","server":"cf.130519.xyz","port":2052,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"salesforce","type":"vless","server":"104.25.254.226","port":2052,"uuid":"6f03a5a9-a99d-4e12-9065-1e8850a03fb5","tls":false,"servername":"cf20230718.hellagohell.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf20230718.hellagohell.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -3819,3 +3819,4 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+
